@@ -1,0 +1,20 @@
+.Card {
+  display: flex;
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 1px lightgrey;
+}
+
+.Card--active {
+  background-color: salmon;
+}
+
+.Card__details {
+  display: grid;
+}
+
+.Card img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
